@@ -1,0 +1,120 @@
+h1{
+    text-align: center;
+    padding-top:5px ;
+    padding-bottom:20px ;
+}
+h1:hover{
+    color: aqua;
+}
+
+.logo>img{
+    width: 5%;
+    margin-left: 47%;
+    margin-top: 25px;
+}
+
+.gridbook{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+
+}
+
+img{
+    width:70%;
+}
+
+.col-sm3{
+  text-align: center;
+  border-style: solid;
+  width:250px;
+  height: 325px;
+  border-radius: 2%;
+  padding: 10px;
+  min-height: fit-content;
+}
+
+.col-sm3:hover{
+    
+    transition: 300ms;
+    transform-origin: top;
+}
+
+
+body{
+    height: 2000px;
+}
+
+.quyensach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.trangsach{
+    width: 60%;
+    border-style:solid ;
+    border-radius: 1%;
+    margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    top: 2000px;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-sm3:hover{
+    transform: translateY(-20px);
+    opacity: 0.8; 
+}
+.logo:hover{
+    transform: translateY(-20px);
+    opacity: 0.8; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-link:hover{
+    transform: translateY(-10px);
+    opacity: 0.8; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.navbar-brand:hover{
+    transform: translateY(-10px);
+    opacity: 0.8; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+body {
+    background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+    color: #333; /* Màu chữ tối */
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa{
+    width: 50px;
+    height: 15px;
+    font-size: 30px;
+  width: 50px;
+}
+.card{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+}
+
+form{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 750px;
+}
