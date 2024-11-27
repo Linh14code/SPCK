@@ -39,10 +39,12 @@ footer{
     margin-top: 40px;
     background-color: #28242c;
     width: 100%;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 

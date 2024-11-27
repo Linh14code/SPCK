@@ -52,11 +52,14 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .col-sm3:hover{
     transform: translateY(-20px);
     opacity: 0.8; 
+    transition: 300ms;
+    transform-origin: top;
 }
 .logo:hover{
     transform: translateY(-20px);
@@ -111,6 +114,14 @@ body {
     }
 
 
+.fa-youtube {
+    background-color: #ff0000;
+}
+
+.fa:hover {
+    transform: scale(1.2); /* Phóng to nhẹ khi hover */
+    opacity: 0.8; /* Làm mờ nhẹ khi hover */
+}
 
 .special{
     background-color: #bcbdbc;
