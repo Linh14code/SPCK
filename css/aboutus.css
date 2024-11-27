@@ -42,11 +42,12 @@ footer{
     margin-top: 30px;
     background-color: #28242c;
     width: 100%;
-    height: 150px;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .logo:hover{
@@ -66,9 +67,118 @@ footer{
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.fa{
-    width: 50px;
-    height: 15px;
+.fa {
+    padding-top: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Hiệu ứng hover */
+    width: 40px; /* Chiều rộng khung tròn */
+    height: 40px; /* Chiều cao khung tròn */
+    line-height: 40px; 
+    text-align: center;
+    border-radius: 50%; 
+    background-color: #3b5998; 
+    color: white;   
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-twitter {
+    background-color: #1da1f2;
+}
+
+.fa-youtube {
+    background-color: #ff0000;
+}
+
+.fa:hover {
+    transform: scale(1.2); /* Phóng to nhẹ khi hover */
+    opacity: 0.8; /* Làm mờ nhẹ khi hover */
+}
+
+/* Container for About Us section */
+.about-section {
+    background-color: #f4f4f4; /* Light background */
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Header for the About Us section */
+.about-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Paragraph text for About Us */
+.about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact and social media links */
+.contact-info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Social media icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social-icons li a {
     font-size: 30px;
-    width: 50px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    color: #007bff; /* Change to blue on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .social-icons li a {
+        font-size: 24px;
+    }
 }

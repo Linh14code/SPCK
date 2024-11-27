@@ -42,11 +42,12 @@ footer{
     margin-top: 30px;
     background-color: #28242c;
     width: 100%;
-    height: 150px;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .logo:hover{
@@ -66,9 +67,31 @@ footer{
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.fa{
-    width: 50px;
-    height: 15px;
-    font-size: 30px;
-    width: 50px;
+.fa {
+    padding-top: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Hiệu ứng hover */
+    width: 40px; /* Chiều rộng khung tròn */
+    height: 40px; /* Chiều cao khung tròn */
+    line-height: 40px; 
+    text-align: center;
+    border-radius: 50%; 
+    background-color: #3b5998; 
+    color: white;   
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-twitter {
+    background-color: #1da1f2;
+}
+
+.fa-youtube {
+    background-color: #ff0000;
+}
+
+.fa:hover {
+    transform: scale(1.2); /* Phóng to nhẹ khi hover */
+    opacity: 0.8; /* Làm mờ nhẹ khi hover */
 }
