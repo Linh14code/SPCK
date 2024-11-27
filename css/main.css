@@ -20,18 +20,17 @@ h1:hover{
 
 }
 
-img{
+.col-sm3 >img{
     width:70%;
+    height: 200px;
 }
 
 .col-sm3{
   text-align: center;
-  border-style: none;
   width:250px;
   height: 325px;
-  border-radius: 2%;
   padding: 10px;
-  min-height: fit-content;
+  height:  fit-content;
 }
 
 .col-sm3:hover{
@@ -44,10 +43,11 @@ img{
 
 
 footer{
+    height: fit-content;
+    margin-bottom: 20px;
     margin-top: 40px;
     background-color: #28242c;
     width: 100%;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,14 +81,46 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.fa{
- font-size: xx-large;
-}
+    .fa {
+        padding-top: 10px;
+        transition: transform 0.3s ease, opacity 0.3s ease; /* Hiệu ứng hover */
+        width: 40px; /* Chiều rộng khung tròn */
+        height: 40px; /* Chiều cao khung tròn */
+        line-height: 40px; 
+        text-align: center;
+        border-radius: 50%; 
+        background-color: #3b5998; 
+        color: white;   
+    }
+    
+    .fa-facebook {
+        background-color: #3b5998;
+    }
+    
+    .fa-twitter {
+        background-color: #1da1f2;
+    }
+    
+    .fa-youtube {
+        background-color: #ff0000;
+    }
+    
+    .fa:hover {
+        transform: scale(1.2); /* Phóng to nhẹ khi hover */
+        opacity: 0.8; /* Làm mờ nhẹ khi hover */
+    }
+
 
 
 .special{
     background-color: #bcbdbc;
-    margin-top: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h4{
+    width: inherit;
+    height: 56px;
     text-align: center;
 }
 
