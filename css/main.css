@@ -13,27 +13,31 @@ h1:hover{
     margin-top: 25px;
 }
 
-.gridbook{
-    display: flex;
-    justify-content: space-evenly;
+.row{
+    justify-content: center;
     margin-top: 55px;
-
+    flex-wrap: wrap;
+    
 }
 
-.col-sm3 >img{
-    width:70%;
-    height: 200px;
+.col-sm-3 >img{
+    width: 60%; /* Chiếm toàn bộ chiều rộng container */
+    height: 250px; /* Chiều cao cố định */
+    object-fit: cover; /* Đảm bảo không bị méo ảnh */
 }
 
-.col-sm3{
+
+.col-sm-3{
   text-align: center;
-  width:250px;
+  width: 250px;
   height: 325px;
   padding: 10px;
-  height:  fit-content;
+  height:  auto;
+  
 }
 
-.col-sm3:hover{
+
+.col-sm-3:hover{
     
     transition: 300ms;
     transform-origin: top;
@@ -55,7 +59,7 @@ footer{
     margin-bottom: 30px;
 }
 
-.col-sm3:hover{
+.col-sm-3:hover{
     transform: translateY(-20px);
     opacity: 0.8; 
     transition: 300ms;
@@ -130,8 +134,13 @@ body {
 }
 
 h4{
-    width: inherit;
-    height: 56px;
+    width: 100%;
+    
     text-align: center;
 }
+
+
+
+ 
+
 
