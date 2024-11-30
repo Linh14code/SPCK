@@ -21,9 +21,9 @@ h1:hover{
 }
 
 .col-sm-3 >img{
-    width: 60%; /* Chiếm toàn bộ chiều rộng container */
+    width: 100%; /* Chiếm toàn bộ chiều rộng container */
     height: 250px; /* Chiều cao cố định */
-    object-fit: cover; /* Đảm bảo không bị méo ảnh */
+    object-fit: contain;  /* Đảm bảo không bị méo ảnh */
 }
 
 
@@ -47,7 +47,7 @@ h1:hover{
 
 
 footer{
-    height: fit-content;
+    height: 170px;
     margin-bottom: 20px;
     margin-top: 40px;
     background-color: #28242c;
@@ -71,6 +71,7 @@ footer{
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+
 .nav-link:hover{
     transform: translateY(-10px);
     opacity: 0.8; 
@@ -83,8 +84,6 @@ footer{
 }
 
 body {
-    background-color: #f9f9f9; 
-    color: #333; 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -140,7 +139,18 @@ h4{
 }
 
 
+.nav-link {
+    color: white !important; /* Màu chữ */
+    font-size: 17px !important;
+}
 
+.special> button{
+    width: 55%;
+}
+
+.row> button{
+    width: 55%;
+}
  
 
 

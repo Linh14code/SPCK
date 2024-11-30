@@ -60,7 +60,7 @@ body{
 }
 
 footer{
-    height: fit-content;
+    height: 170px;
     margin-bottom: 20px;
     margin-top: 40px;
     background-color: #28242c;
@@ -126,6 +126,7 @@ body {
 .fa:hover {
     transform: scale(1.2); /* Phóng to nhẹ khi hover */
     opacity: 0.8; /* Làm mờ nhẹ khi hover */
+}
 .fa {
     padding-top: 10px;
     transition: transform 0.3s ease, opacity 0.3s ease; /* Hiệu ứng hover */
@@ -161,10 +162,20 @@ body {
    text-align: center;
 }
 
+
 form{
     width: 50%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 750px;
+}
+
+
+.nav-link {
+    color: white !important; /* Màu chữ */
+    font-size: 17px !important;
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
