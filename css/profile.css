@@ -13,51 +13,13 @@ h1:hover{
     margin-top: 25px;
 }
 
-.gridbook{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 55px;
 
-}
 
 img{
     width:70%;
 }
 
-.col-sm3{
-  text-align: center;
-  border-style: solid;
-  width:250px;
-  height: 325px;
-  border-radius: 2%;
-  padding: 10px;
-  min-height: fit-content;
-}
 
-.col-sm3:hover{
-    
-    transition: 300ms;
-    transform-origin: top;
-}
-
-
-body{
-    height: 2000px;
-}
-
-.quyensach{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.trangsach{
-    width: 60%;
-    border-style:solid ;
-    border-radius: 1%;
-    margin-top: 20px;
-}
 
 footer{
     height: 170px;
@@ -70,12 +32,17 @@ footer{
     align-items: center;
     flex-direction: column;
     margin-bottom: 30px;
+    
 }
 
-.col-sm3:hover{
-    transform: translateY(-20px);
-    opacity: 0.8; 
+.profile{
+    display: block;
+    width:100% ;
+    height: 850px;;
 }
+
+
+
 .logo:hover{
     transform: translateY(-20px);
     opacity: 0.8; 
@@ -109,6 +76,7 @@ body {
     border-radius: 50%; 
     background-color: #3b5998; 
     color: white;   
+    
 }
 
 .fa-facebook {
