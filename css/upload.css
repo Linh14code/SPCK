@@ -1,12 +1,11 @@
 .form{
-    width:50%;
+    width:70%;
     border-style: solid;
     padding: 15px;
     border-radius: 2%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    z-index: 1;
 }
 
 h1{
